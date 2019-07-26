@@ -1,0 +1,29 @@
+{
+  "name": "kafka-Producer-SalesReport",
+  "version": "0.0.1",
+  "description": "Node.js programs to read Sales details records from CVS file (with random delay), produce them to Kafka",
+  "main": "KafkaCountryProducer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbph/pySparkKafkaStreaming"
+  },
+  "keywords": [
+    "kafka",
+    "node",
+    "js",
+    "produce"
+  ],
+  "author": "Babu Thirumalai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbph/pySparkKafkaStreaming"
+  },
+  "homepage": "https://github.com/hbph/pySparkKafkaStreaming",
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "kafka-node": "^1.3.4"
+  }
+}
